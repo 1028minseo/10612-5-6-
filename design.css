@@ -1,0 +1,39 @@
+* {
+    margin: 3; 
+    padding: 1;
+    box-sizing: border-box;
+    }
+
+body {
+      background-color: rgb(187, 181, 165);
+    padding-top: 1px; 
+}
+
+    h1, h2, h3, h4, h5, h6, p 
+   { margin: 0;
+}
+
+
+.a {
+  display: grid;
+  justify-content: start; 
+  align-items: start;
+  height: 50px;
+  background-color: rgb(146, 136, 124);
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(123, 88, 43);
+  grid-template-columns: 200px 1fr;
+}
+
+.b {
+  display: flex;
+justify-content: flex-end;
+  align-items: flex-end;
+  height: 200px;
+}
+
+.c {
+    height: 50px;
+  background-color: rgb(255, 255, 255);
+}
